@@ -51,6 +51,8 @@ msiexec /i WindowsAdminCenter<version>.msi DEV_MODE=1
 ```bat
 nuget pack redfish.nuspec
 ```
+Refer to the release for the pre-built package: https://github.com/hongtao-chen/redfish-device/releases
+
 6. Copy the generated package `redfish.0.0.1.nupkg` into a network share, and add this share as a extension feed in WAC.
 
 7. Install the `Redfish Device Solution (Demo)` from the WAC extension management UI.
